@@ -28,7 +28,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - shrenujbansal
+        - ZenGround0
       push:
         - aashidham
         - masih
@@ -104,7 +104,6 @@ repositories:
     collaborators:
       admin:
         - jennijuju
-        - shrenujbansal
         - snissn
       maintain:
         - elizabeth-griffiths
@@ -144,32 +143,6 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
-  filecoin-services:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - aarshkshah1992
-        - rjan90
-        - ZenGround0
-      maintain:
-        - rvagg
-      push:
-        - silent-cipher
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - filoz-fs
-        - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
   FilForwarder:
@@ -476,11 +449,12 @@ repositories:
     collaborators:
       admin:
         - momack2
-        - rjan90
         - rvagg
         - ZenGround0
+        - jennijuju
       maintain:
         - aarshkshah1992
+        - rjan90
       push:
         - masih
         - timfong888
@@ -506,13 +480,14 @@ teams:
         - jennijuju
         - momack2
         - rjan90
-        - ZenGround0
       member:
+        - ZenGround0
         - aarshkshah1992
         - masih
         - rvagg
         - timfong888
         - TippyFlitsUK
+        - BigLep
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
@@ -570,10 +545,9 @@ teams:
     create_default_maintainer: false
     members:
       maintainer:
-        - jennijuju
-      member:
+        - patrickwoodhead
         - bajtos
+      member:
         - juliangruber
         - NikolasHaimerl
-        - patrickwoodhead
         - pyropy
