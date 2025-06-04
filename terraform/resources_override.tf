@@ -6,7 +6,6 @@ resource "github_repository" "this" {
       allow_rebase_merge,
       allow_squash_merge,
       archive_on_destroy,
-      archived,
       auto_init,
       default_branch,
       delete_branch_on_merge,
@@ -23,9 +22,7 @@ resource "github_repository" "this" {
       pages,
       template,
       topics,
-      visibility,
-      vulnerability_alerts,
-      web_commit_signoff_required,
+      vulnerability_alerts
     ]
   }
 }
@@ -36,13 +33,12 @@ resource "github_branch_protection" "this" {
       allows_deletions,
       allows_force_pushes,
       enforce_admins,
-      force_push_bypassers,
+      push_restrictions,
       require_conversation_resolution,
       require_signed_commits,
       required_linear_history,
       # required_pull_request_reviews,
-      # required_status_checks,
-      restrict_pushes,
+      # required_status_checks
     ]
   }
 }
