@@ -522,7 +522,7 @@ teams:
     # ATTN: members are expected to:
     #  - be familiar with github-mgmt / github-as-code
     #  - be ready to triage/review org configuration change requests in github-mgmt
-    members: {}
+    {}
   github-mgmt stewards:
     # Notes:
     # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
