@@ -257,6 +257,14 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    branch_protection:
+      master:
+        required_pull_request_reviews:
+          required_approving_review_count: 1
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -264,6 +272,11 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - github-mgmt stewards
+      triage:
+        - github-mgmt approvers
     visibility: public
     web_commit_signoff_required: false
   hotvault-demo:
@@ -500,6 +513,59 @@ teams:
         - rvagg
         - timfong888
         - TippyFlitsUK
+  github-mgmt approvers:
+    # Notes:
+    # 1. These members have triage access to the github-mgmt repository.
+    # 2. These members + github-mgmt-stewards + org owners are who can approve PRs to this repo.
+    # 3. These members can't merge PRs.  They need a github-mgmt-stewards or org owner to do this.
+    # 4. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    # ATTN: members are expected to:
+    #  - be familiar with github-mgmt / github-as-code
+    #  - be ready to triage/review org configuration change requests in github-mgmt
+    members: {}
+  github-mgmt stewards:
+    # Notes:
+    # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
+    # 2. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    members:
+      # WARN: membership here should be treated as cautiously as having an "org owner" role,
+      # since one can escalate their privileges accordingly.
+      # ATTN: members are expected to:
+      #  - be familiar with github-mgmt / github-as-code
+      #  - be ready to triage/review org configuration change requests in github-mgmt
+      # INFO: There are others who could certainly qualify to be members of this team.
+      # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
+      # and reducing risk by not having too many with the escalation path that this role affords.
+      # INFO: Intentionally minimize "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
+      # INFO: The individuals below are listed as "maintainers" rather than "members" because they are FilOzone owners/admins (see "org.admin" above).
+      # GitHub will auto-bump their team privileges anyway if we don't manually.
+      maintainer:
+        # Why @BigLep?
+        # 1. This can be temporarily, but at least of 2024-08-02, he is contracted with FilOz to get github-mgmt setup and operationalized
+        #    (e.g., https://github.com/filecoin-project/community/discussions/710).
+        # 2. He has experience working with github-mgmt in other contexts (e.g., ipfs per https://github.com/ipfs/ipfs/issues/511)
+        - BigLep
+        # Why @galargh?
+        # 1. Same reasons listed at the top in "members.admin".
+        # 2. He has deep knowledge of the tool and its use as the creator.  This empowers him to help make changes and improvements in a low friction way.
+        - galargh
+        # Why @jennijuju?
+        # 1. Same reasons listed at the top in "members.admin".
+        # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @FilOzone/github-mgmt-stewards team mentions/notifications.
+        - jennijuju
+      member:
+        # Why @rjan90?
+        # 1. He is a project manager at FilOz.
+        - rjan90
+        # Why @rvagg?
+        # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
+        #    FilOz wants to ensure changes to these repos is done under code review and transparently,
+        #    and @rvagg is one of the key people who will be reviewing these changes.
+        #    (FilOz is also guinea-pigging this process, but the hope/intent is to have other groups manage their repos in this way too if its successful.
+        #    We are also dependent on some tooling improvement to support a diverse set of stakeholders that have limited blast radius.
+        #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
+        # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
+        - rvagg
   SpaceMeridian:
     create_default_maintainer: false
     members:
