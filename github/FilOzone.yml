@@ -145,6 +145,33 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  filecoin-services:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - aarshkshah1992
+        - jennijuju
+        - ZenGround0
+      maintain:
+        - rjan90
+        - rvagg
+      push:
+        - silent-cipher
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - filoz-fs
+        - SpaceMeridian
+    visibility: public
+    web_commit_signoff_required: false
   FilForwarder:
     advanced_security: false
     allow_update_branch: false
@@ -197,33 +224,6 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     visibility: public
     web_commit_signoff_required: false
-  filecoin-services:
-      advanced_security: false
-      allow_update_branch: false
-      archived: false
-      collaborators:
-        admin:
-          - jennijuju
-          - aarshkshah1992
-          - ZenGround0
-        maintain:
-          - rvagg
-          - rjan90
-        push:
-          - silent-cipher
-      has_discussions: false
-      merge_commit_message: PR_TITLE
-      merge_commit_title: MERGE_MESSAGE
-      secret_scanning_push_protection: true
-      secret_scanning: true
-      squash_merge_commit_message: COMMIT_MESSAGES
-      squash_merge_commit_title: COMMIT_OR_PR_TITLE
-      teams:
-        push:
-          - filoz-fs
-          - SpaceMeridian
-      visibility: public
-      web_commit_signoff_required: false
   gas-model:
     advanced_security: false
     allow_update_branch: false
@@ -459,10 +459,10 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - jennijuju
         - momack2
         - rvagg
         - ZenGround0
-        - jennijuju
       maintain:
         - aarshkshah1992
         - rjan90
@@ -492,13 +492,13 @@ teams:
         - momack2
         - rjan90
       member:
-        - ZenGround0
         - aarshkshah1992
+        - BigLep
         - masih
         - rvagg
         - timfong888
         - TippyFlitsUK
-        - BigLep
+        - ZenGround0
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
@@ -556,8 +556,8 @@ teams:
     create_default_maintainer: false
     members:
       maintainer:
-        - patrickwoodhead
         - bajtos
+        - patrickwoodhead
       member:
         - juliangruber
         - NikolasHaimerl
