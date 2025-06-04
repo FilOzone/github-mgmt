@@ -197,22 +197,33 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     visibility: public
     web_commit_signoff_required: false
-  fws-website:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jennijuju
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
+  filecoin-services:
+      advanced_security: false
+      allow_update_branch: false
+      archived: false
+      collaborators:
+        admin:
+          - jennijuju
+          - aarshkshah1992
+          - ZenGround0
+        maintain:
+          - rvagg
+          - rjan90
+        push:
+          - silent-cipher
+      has_discussions: false
+      merge_commit_message: PR_TITLE
+      merge_commit_title: MERGE_MESSAGE
+      secret_scanning_push_protection: true
+      secret_scanning: true
+      squash_merge_commit_message: COMMIT_MESSAGES
+      squash_merge_commit_title: COMMIT_OR_PR_TITLE
+      teams:
+        push:
+          - filoz-fs
+          - SpaceMeridian
+      visibility: public
+      web_commit_signoff_required: false
   gas-model:
     advanced_security: false
     allow_update_branch: false
