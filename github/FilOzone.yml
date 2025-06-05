@@ -145,6 +145,29 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  filecoin-services-payments:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - aarshkshah1992
+        - jennijuju
+        - ZenGround0
+      maintain:
+        - Stebalien
+      push:
+        - Kubuxu
+        - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   filecoin-services:
     advanced_security: false
     allow_update_branch: false
@@ -185,45 +208,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
-  fs-website:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - longfeiWan9
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
-  fws-payments:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - aarshkshah1992
-        - jennijuju
-        - ZenGround0
-      maintain:
-        - Stebalien
-      push:
-        - Kubuxu
-        - rvagg
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: PR_BODY
-    squash_merge_commit_title: PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
   gas-model:
     advanced_security: false
     allow_update_branch: false
@@ -241,14 +225,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    branch_protection:
-      master:
-        required_pull_request_reviews:
-          required_approving_review_count: 1
-        required_status_checks:
-          contexts:
-            - Comment
-          strict: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -483,6 +459,24 @@ repositories:
         - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
+  synapse-website:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - jennijuju
+      maintain:
+        - TippyFlitsUK
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+    web_commit_signoff_required: false
 teams:
   filoz-fs:
     create_default_maintainer: false
@@ -508,11 +502,12 @@ teams:
     # ATTN: members are expected to:
     #  - be familiar with github-mgmt / github-as-code
     #  - be ready to triage/review org configuration change requests in github-mgmt
-    {}
+    create_default_maintainer: false
   github-mgmt stewards:
     # Notes:
     # 1. These members have push+ access to the github-mgmt repository (in addition to the org owners listed in "members.admin" above).
     # 2. Having a team instead of direct collaborators on the github-mgmt repository also enables easy reference in the github-mgmt CODEOWNERS file.
+    create_default_maintainer: false
     members:
       # WARN: membership here should be treated as cautiously as having an "org owner" role,
       # since one can escalate their privileges accordingly.
@@ -539,10 +534,10 @@ teams:
         # 1. Same reasons listed at the top in "members.admin".
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @FilOzone/github-mgmt-stewards team mentions/notifications.
         - jennijuju
+        - rjan90
       member:
         # Why @rjan90?
         # 1. He is a project manager at FilOz.
-        - rjan90
         # Why @rvagg?
         # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
         #    FilOz wants to ensure changes to these repos is done under code review and transparently,
