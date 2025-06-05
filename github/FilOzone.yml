@@ -28,7 +28,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - shrenujbansal
+        - ZenGround0
       push:
         - aashidham
         - masih
@@ -104,7 +104,6 @@ repositories:
     collaborators:
       admin:
         - jennijuju
-        - shrenujbansal
         - snissn
       maintain:
         - elizabeth-griffiths
@@ -176,9 +175,10 @@ repositories:
     collaborators:
       admin:
         - aarshkshah1992
-        - rjan90
+        - jennijuju
         - ZenGround0
       maintain:
+        - rjan90
         - rvagg
       push:
         - silent-cipher
@@ -435,12 +435,13 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - jennijuju
         - momack2
-        - rjan90
         - rvagg
         - ZenGround0
       maintain:
         - aarshkshah1992
+        - rjan90
       push:
         - masih
         - timfong888
@@ -484,13 +485,14 @@ teams:
         - jennijuju
         - momack2
         - rjan90
-        - ZenGround0
       member:
         - aarshkshah1992
+        - BigLep
         - masih
         - rvagg
         - timfong888
         - TippyFlitsUK
+        - ZenGround0
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
@@ -549,10 +551,9 @@ teams:
     create_default_maintainer: false
     members:
       maintainer:
-        - jennijuju
-      member:
         - bajtos
+        - patrickwoodhead
+      member:
         - juliangruber
         - NikolasHaimerl
-        - patrickwoodhead
         - pyropy
