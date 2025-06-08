@@ -176,19 +176,19 @@ repositories:
       admin:
         - aarshkshah1992
         - jennijuju
+        - rjan90
         - ZenGround0
       maintain:
-        - rjan90
         - rvagg
       push:
         - silent-cipher
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     teams:
       push:
         - filoz-fs
@@ -437,11 +437,11 @@ repositories:
       admin:
         - jennijuju
         - momack2
+        - rjan90
         - rvagg
         - ZenGround0
       maintain:
         - aarshkshah1992
-        - rjan90
       push:
         - masih
         - timfong888
@@ -482,17 +482,17 @@ teams:
     create_default_maintainer: false
     members:
       maintainer:
+        - BigLep
         - jennijuju
         - momack2
         - rjan90
+        - ZenGround0
       member:
         - aarshkshah1992
-        - BigLep
         - masih
         - rvagg
         - timfong888
         - TippyFlitsUK
-        - ZenGround0
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
