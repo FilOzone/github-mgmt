@@ -12,7 +12,11 @@ members:
   member:
     - aarshkshah1992
     - bajtos
+    - code-pangolin
     - juliangruber
+    - kaola526
+    - MaBarnabas
+    - macro-ss
     - masih
     - NikolasHaimerl
     - patrickwoodhead
@@ -158,6 +162,7 @@ repositories:
         - Stebalien
       push:
         - Kubuxu
+        - lordshashank
         - rvagg
         - silent-cipher
     has_discussions: false
@@ -359,6 +364,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - StorSwift
     visibility: public
     web_commit_signoff_required: false
   pdp:
@@ -445,6 +453,7 @@ repositories:
         - aarshkshah1992
       push:
         - masih
+        - silent-cipher
         - timfong888
         - TippyFlitsUK
     has_discussions: false
@@ -558,3 +567,11 @@ teams:
         - juliangruber
         - NikolasHaimerl
         - pyropy
+  StorSwift:
+    create_default_maintainer: false
+    members:
+      member:
+        - code-pangolin
+        - kaola526
+        - MaBarnabas
+        - macro-ss
