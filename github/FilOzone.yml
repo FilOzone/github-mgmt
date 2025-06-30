@@ -36,7 +36,6 @@ repositories:
         - ZenGround0
       push:
         - aashidham
-        - masih
         - snissn
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -355,7 +354,6 @@ repositories:
       push:
         - frrist
         - LexLuthr
-        - masih
         - silent-cipher
         - virajbhartiya
     has_discussions: false
@@ -453,7 +451,6 @@ repositories:
       maintain:
         - aarshkshah1992
       push:
-        - masih
         - silent-cipher
         - timfong888
         - TippyFlitsUK
@@ -501,7 +498,6 @@ teams:
       member:
         - aarshkshah1992
         - Kubuxu
-        - masih
         - rvagg
         - timfong888
         - TippyFlitsUK
