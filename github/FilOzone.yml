@@ -19,7 +19,6 @@ members:
     - Kubuxu
     - MaBarnabas
     - macro-ss
-    - masih
     - NikolasHaimerl
     - patrickwoodhead
     - pyropy
@@ -186,6 +185,7 @@ repositories:
         - rjan90
         - ZenGround0
       maintain:
+        - Kubuxu
         - rvagg
       push:
         - silent-cipher
