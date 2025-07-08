@@ -165,7 +165,7 @@ repositories:
         - lordshashank
         - rvagg
         - silent-cipher
-    files: 
+    files:
       .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
         content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
@@ -192,7 +192,7 @@ repositories:
         - rvagg
       push:
         - silent-cipher
-    files: 
+    files:
       .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
         content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
@@ -388,7 +388,7 @@ repositories:
         - frrist
         - LexLuthr
         - nijoe1
-    files: 
+    files:
       .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
         content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
@@ -464,7 +464,7 @@ repositories:
         - silent-cipher
         - timfong888
         - TippyFlitsUK
-    files: 
+    files:
       .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
         content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
