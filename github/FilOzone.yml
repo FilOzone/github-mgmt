@@ -388,6 +388,7 @@ repositories:
         - frrist
         - LexLuthr
         - nijoe1
+        - rvagg
     files:
       .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
         content: workflows/add-issues-and-prs-to-fs-project-board.yml
