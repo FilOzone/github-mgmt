@@ -192,9 +192,6 @@ repositories:
         - rvagg
       push:
         - silent-cipher
-    files:
-      .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
-        content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
