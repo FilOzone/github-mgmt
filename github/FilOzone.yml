@@ -165,9 +165,6 @@ repositories:
         - lordshashank
         - rvagg
         - silent-cipher
-    files:
-      .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
-        content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -385,9 +382,6 @@ repositories:
         - LexLuthr
         - nijoe1
         - rvagg
-    files:
-      .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
-        content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -461,9 +455,6 @@ repositories:
         - silent-cipher
         - timfong888
         - TippyFlitsUK
-    files:
-      .github/workflows/add-issues-and-prs-to-fs-project-board.yml:
-        content: workflows/add-issues-and-prs-to-fs-project-board.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
