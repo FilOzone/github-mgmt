@@ -161,9 +161,7 @@ repositories:
       maintain:
         - Stebalien
       push:
-        - Kubuxu
         - lordshashank
-        - rvagg
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -172,6 +170,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
+    teams:
+      push:
+        - filoz-fs
     visibility: public
     web_commit_signoff_required: false
   filecoin-services:
@@ -381,7 +382,6 @@ repositories:
         - frrist
         - LexLuthr
         - nijoe1
-        - rvagg
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -389,6 +389,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - filoz-fs
     visibility: public
     web_commit_signoff_required: false
   retropgf-drips:
@@ -453,8 +456,6 @@ repositories:
         - aarshkshah1992
       push:
         - silent-cipher
-        - timfong888
-        - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -493,8 +494,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
