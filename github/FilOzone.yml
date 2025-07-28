@@ -534,6 +534,7 @@ teams:
         - rvagg
         - timfong888
         - TippyFlitsUK
+        - wjmelements
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
