@@ -26,6 +26,7 @@ members:
     - snissn
     - timfong888
     - TippyFlitsUK
+    - wjmelements
 repositories:
   client-contract:
     advanced_security: false
@@ -167,17 +168,29 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  filecoin-pin:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - rvagg
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   filecoin-services-payments:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
         - jennijuju
-        - ZenGround0
-      maintain:
-        - Stebalien
       push:
         - lordshashank
         - silent-cipher
@@ -189,8 +202,9 @@ repositories:
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
     teams:
-      push:
+      maintain:
         - filoz-fs
+        - fs-payment-maintainers
     visibility: public
     web_commit_signoff_required: false
   filecoin-services:
@@ -217,6 +231,7 @@ repositories:
     teams:
       push:
         - filoz-fs
+        - fs-payment-maintainers
         - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
@@ -283,6 +298,22 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+    web_commit_signoff_required: false
+  localnet:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - wjmelements
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
     web_commit_signoff_required: false
   lotus-contributors-drips:
     advanced_security: false
@@ -410,6 +441,7 @@ repositories:
     teams:
       push:
         - filoz-fs
+        - fs-payment-maintainers
     visibility: public
     web_commit_signoff_required: false
   retropgf-drips:
@@ -484,6 +516,7 @@ repositories:
     teams:
       push:
         - filoz-fs
+        - fs-payment-maintainers
         - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
@@ -495,6 +528,7 @@ repositories:
       admin:
         - jennijuju
       maintain:
+        - timfong888
         - TippyFlitsUK
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -534,6 +568,17 @@ teams:
         - rvagg
         - timfong888
         - TippyFlitsUK
+        - wjmelements
+  fs-payment-maintainers:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - jennijuju
+        - ZenGround0
+      member:
+        - aarshkshah1992
+        - Kubuxu
+        - rvagg
         - wjmelements
   github-mgmt approvers:
     # Notes:
