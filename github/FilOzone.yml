@@ -194,6 +194,7 @@ repositories:
       push:
         - lordshashank
         - silent-cipher
+        - hugomrdias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -221,6 +222,7 @@ repositories:
         - rvagg
       push:
         - silent-cipher
+        - hugomrdias
     has_discussions: false
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -431,6 +433,7 @@ repositories:
         - frrist
         - LexLuthr
         - nijoe1
+        - hugomrdias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -506,6 +509,7 @@ repositories:
         - aarshkshah1992
       push:
         - silent-cipher
+        - hugomrdias
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
