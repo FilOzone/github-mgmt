@@ -11,7 +11,6 @@ members:
     - ZenGround0
   member:
     - aarshkshah1992
-    - aschmahmann
     - bajtos
     - code-pangolin
     - FilOzzy
@@ -209,7 +208,6 @@ repositories:
     teams:
       maintain:
         - filoz-fs
-        - fs-payment-maintainers
     visibility: public
     web_commit_signoff_required: false
   filecoin-pin:
@@ -255,7 +253,6 @@ repositories:
     teams:
       push:
         - filoz-fs
-        - fs-payment-maintainers
         - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
@@ -482,7 +479,6 @@ repositories:
     teams:
       push:
         - filoz-fs
-        - fs-payment-maintainers
     visibility: public
     web_commit_signoff_required: false
   retropgf-drips:
@@ -558,7 +554,6 @@ repositories:
     teams:
       push:
         - filoz-fs
-        - fs-payment-maintainers
         - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
@@ -595,6 +590,18 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
 teams:
+  filecoin-pay-maintainers:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - jennijuju
+        - rjan90
+        - ZenGround0
+      member:
+        - aarshkshah1992
+        - Kubuxu
+        - rvagg
+        - wjmelements
   filecoin-pin-dev:
     create_default_maintainer: false
     members:
@@ -602,7 +609,6 @@ teams:
         - jennijuju
       member:
         - aarshkshah1992
-        - aschmahmann
         - hugomrdias
         - rvagg
   filoz-fs:
@@ -620,17 +626,6 @@ teams:
         - rvagg
         - timfong888
         - TippyFlitsUK
-        - wjmelements
-  fs-payment-maintainers:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - jennijuju
-        - ZenGround0
-      member:
-        - aarshkshah1992
-        - Kubuxu
-        - rvagg
         - wjmelements
   github-mgmt approvers:
     # Notes:
