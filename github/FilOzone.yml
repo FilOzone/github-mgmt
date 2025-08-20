@@ -483,6 +483,7 @@ repositories:
         - hugomrdias
         - LexLuthr
         - nijoe1
+        - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
