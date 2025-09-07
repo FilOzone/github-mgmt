@@ -309,7 +309,11 @@ repositories:
     archived: false
     collaborators:
       push:
+        - biga816
+        - eshon
         - nijoe1
+      triage:
+        - nandit123
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -641,6 +645,8 @@ repositories:
       admin:
         - timfong888
       push:
+        - biga816
+        - eshon
         - nijoe1
         - trruckerfling
     has_discussions: true
@@ -680,6 +686,8 @@ repositories:
     collaborators:
       admin:
         - timfong888
+      triage:
+        - nandit123
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
