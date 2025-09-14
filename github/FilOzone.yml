@@ -311,7 +311,9 @@ repositories:
       push:
         - biga816
         - eshon
+        - longfeiWan9
         - nijoe1
+        - vijayeth
       triage:
         - nandit123
     has_discussions: false
@@ -646,7 +648,7 @@ repositories:
         - timfong888
       push:
         - biga816
-        - eshon
+        - longfeiWan9
         - nijoe1
         - trruckerfling
     has_discussions: true
@@ -685,7 +687,10 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - BigLep
         - timfong888
+      push:
+        - nijoe1
       triage:
         - nandit123
     has_discussions: false
