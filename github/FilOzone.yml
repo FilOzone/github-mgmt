@@ -8,6 +8,7 @@ members:
     - magik6k
     - momack2
     - rjan90
+    - rvagg
     - ZenGround0
   member:
     - aarshkshah1992
@@ -24,7 +25,6 @@ members:
     - NikolasHaimerl
     - patrickwoodhead
     - pyropy
-    - rvagg
     - snissn
     - timfong888
     - TippyFlitsUK
@@ -227,25 +227,6 @@ repositories:
         - filoz-fs
     visibility: public
     web_commit_signoff_required: false
-  filecoin-pin:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - rvagg
-      push:
-        - aschmahmann
-        - lidel
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
   filecoin-services:
     advanced_security: false
     allow_update_branch: false
@@ -255,9 +236,8 @@ repositories:
         - aarshkshah1992
         - jennijuju
         - rjan90
-        - ZenGround0
-      maintain:
         - rvagg
+        - ZenGround0
       push:
         - hugomrdias
         - silent-cipher
@@ -722,21 +702,21 @@ teams:
       maintainer:
         - jennijuju
         - rjan90
+        - rvagg
         - ZenGround0
       member:
         - aarshkshah1992
         - Kubuxu
-        - rvagg
         - wjmelements
   filecoin-pin-dev:
     create_default_maintainer: false
     members:
       maintainer:
         - jennijuju
+        - rvagg
       member:
         - aarshkshah1992
         - hugomrdias
-        - rvagg
   filoz-fs:
     create_default_maintainer: false
     members:
@@ -745,12 +725,12 @@ teams:
         - jennijuju
         - momack2
         - rjan90
+        - rvagg
         - ZenGround0
       member:
         - aarshkshah1992
         - irenegia
         - Kubuxu
-        - rvagg
         - timfong888
         - TippyFlitsUK
         - wjmelements
@@ -805,17 +785,6 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @FilOzone/github-mgmt-stewards team mentions/notifications.
         - jennijuju
         - rjan90
-      member:
-        # Why @rjan90?
-        # 1. He is a project manager at FilOz.
-        # Why @rvagg?
-        # 1. He is an active in-the-GitHub-trenches maintainer for FilOz, often touching the 10+ repos that FilOz owns/maintains.
-        #    FilOz wants to ensure changes to these repos is done under code review and transparently,
-        #    and @rvagg is one of the key people who will be reviewing these changes.
-        #    (FilOz is also guinea-pigging this process, but the hope/intent is to have other groups manage their repos in this way too if its successful.
-        #    We are also dependent on some tooling improvement to support a diverse set of stakeholders that have limited blast radius.
-        #    See https://github.com/ipdxco/github-as-code/issues/126 for more info.)
-        # 2. He has experience working with github-mgmt in other contexts (e.g., ipld)
         - rvagg
   SpaceMeridian:
     create_default_maintainer: false
