@@ -240,6 +240,7 @@ repositories:
         - ZenGround0
       push:
         - hugomrdias
+        - LexLuthr
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_BODY
@@ -586,6 +587,7 @@ repositories:
         - aarshkshah1992
       push:
         - hugomrdias
+        - SgtPooki
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -627,8 +629,10 @@ repositories:
       admin:
         - timfong888
       push:
+        - Angelo-gh3990
         - biga816
         - longfeiWan9
+        - nandit123
         - nijoe1
         - trruckerfling
     has_discussions: true
