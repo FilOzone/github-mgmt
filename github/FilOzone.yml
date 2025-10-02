@@ -585,8 +585,8 @@ repositories:
         - ZenGround0
       maintain:
         - aarshkshah1992
-      push:
         - hugomrdias
+      push:
         - SgtPooki
         - silent-cipher
     has_discussions: false
