@@ -186,6 +186,30 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  filecoin-cloud:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - TippyFlitsUK
+      push:
+        - barbaraperic
+        - CharlyMartin
+        - filipagr
+        - mirhamasala
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - filoz-fs
+    visibility: private
+    web_commit_signoff_required: false
   filecoin-pay-explorer:
     advanced_security: false
     allow_update_branch: false
@@ -612,6 +636,11 @@ repositories:
       maintain:
         - timfong888
         - TippyFlitsUK
+      push:
+        - barbaraperic
+        - CharlyMartin
+        - filipagr
+        - mirhamasala
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -632,8 +661,8 @@ repositories:
         - Angelo-gh3990
         - biga816
         - longfeiWan9
-        - nandit123
         - nijoe1
+        - RichardHerold
         - trruckerfling
     has_discussions: true
     merge_commit_message: PR_TITLE
