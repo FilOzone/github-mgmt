@@ -197,7 +197,6 @@ repositories:
       push:
         - barbaraperic
         - CharlyMartin
-        - filipagr
         - mirhamasala
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -634,13 +633,13 @@ repositories:
     collaborators:
       admin:
         - jennijuju
+        - rjan90
       maintain:
         - timfong888
         - TippyFlitsUK
       push:
         - barbaraperic
         - CharlyMartin
-        - filipagr
         - mirhamasala
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -663,7 +662,6 @@ repositories:
         - biga816
         - longfeiWan9
         - nijoe1
-        - RichardHerold
         - trruckerfling
     has_discussions: true
     merge_commit_message: PR_TITLE
