@@ -13,7 +13,6 @@ members:
   member:
     - aarshkshah1992
     - bajtos
-    - bambooogreen
     - code-pangolin
     - FilOzzy
     - hugomrdias
@@ -26,6 +25,7 @@ members:
     - NikolasHaimerl
     - patrickwoodhead
     - pyropy
+    - redpanda-f
     - snissn
     - timfong888
     - TippyFlitsUK
@@ -197,6 +197,7 @@ repositories:
       push:
         - barbaraperic
         - CharlyMartin
+        - gmoranxyz
         - mirhamasala
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -760,9 +761,9 @@ teams:
         - rvagg
         - ZenGround0
       member:
-        - bambooogreen
         - irenegia
         - Kubuxu
+        - redpanda-f
         - timfong888
         - TippyFlitsUK
         - wjmelements
