@@ -234,6 +234,8 @@ repositories:
         - CharlyMartin
         - gmoranxyz
         - silent-cipher
+      triage:
+        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -244,7 +246,7 @@ repositories:
     teams:
       admin:
         - filoz-fs
-    visibility: private
+    visibility: public
     web_commit_signoff_required: false
   filecoin-pay-explorer:
     advanced_security: false
