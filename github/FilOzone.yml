@@ -21,14 +21,17 @@ members:
     - juliangruber
     - kaola526
     - Kubuxu
+    - longfeiWan9
     - MaBarnabas
     - macro-ss
+    - nijoe1
     - NikolasHaimerl
     - pyropy
     - redpanda-f
     - snissn
     - timfong888
     - TippyFlitsUK
+    - trruckerfling
     - wjmelements
 repositories:
   client-contract:
@@ -417,6 +420,7 @@ repositories:
         - vijayeth
       triage:
         - nandit123
+        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -860,6 +864,16 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
 teams:
+  FIL-B:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - BigLep
+      member:
+        - longfeiWan9
+        - nijoe1
+        - snissn
+        - trruckerfling
   filecoin-pay-maintainers:
     create_default_maintainer: false
     members:
