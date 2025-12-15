@@ -727,11 +727,8 @@ repositories:
         - aarshkshah1992
         - hugomrdias
       push:
-        - longfeiWan9
-        - nijoe1
         - SgtPooki
         - silent-cipher
-        - snissn
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -741,6 +738,7 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       push:
+        - FIL-B
         - filoz-fs
         - SpaceMeridian
     visibility: public
