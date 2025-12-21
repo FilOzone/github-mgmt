@@ -31,7 +31,6 @@ members:
     - snissn
     - timfong888
     - TippyFlitsUK
-    - trruckerfling
     - wjmelements
 repositories:
   client-contract:
@@ -487,6 +486,25 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  infra:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      maintain:
+        - SgtPooki
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - filoz-fs
+    visibility: private
+    web_commit_signoff_required: false
   localnet:
     advanced_security: false
     allow_update_branch: false
@@ -871,7 +889,6 @@ teams:
         - longfeiWan9
         - nijoe1
         - snissn
-        - trruckerfling
   filecoin-pay-maintainers:
     create_default_maintainer: false
     members:
