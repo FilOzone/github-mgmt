@@ -28,6 +28,7 @@ members:
     - NikolasHaimerl
     - pyropy
     - redpanda-f
+    - SgtPooki
     - snissn
     - timfong888
     - TippyFlitsUK
@@ -101,8 +102,6 @@ repositories:
     collaborators:
       maintain:
         - silent-cipher
-      push:
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -217,8 +216,6 @@ repositories:
     collaborators:
       admin:
         - redpanda-f
-      pull:
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -226,6 +223,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - filoz-fs
     visibility: private
     web_commit_signoff_required: false
   filecoin-cloud:
@@ -241,8 +241,6 @@ repositories:
         - CharlyMartin
         - gmoranxyz
         - silent-cipher
-      triage:
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -262,8 +260,6 @@ repositories:
     collaborators:
       admin:
         - silent-cipher
-      push:
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -419,7 +415,6 @@ repositories:
         - vijayeth
       triage:
         - nandit123
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -490,9 +485,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      maintain:
-        - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -745,7 +737,6 @@ repositories:
         - aarshkshah1992
         - hugomrdias
       push:
-        - SgtPooki
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -924,6 +915,7 @@ teams:
         - irenegia
         - Kubuxu
         - redpanda-f
+        - SgtPooki
         - timfong888
         - TippyFlitsUK
         - wjmelements
