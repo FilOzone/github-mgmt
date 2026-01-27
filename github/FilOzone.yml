@@ -293,6 +293,7 @@ repositories:
     teams:
       push:
         - filoz-fs
+        - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
   filecoin-pay:
