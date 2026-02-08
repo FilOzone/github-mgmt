@@ -308,8 +308,9 @@ repositories:
       push:
         - hugomrdias
         - lordshashank
+        - pyropy
         - silent-cipher
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -327,7 +328,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
         - jennijuju
         - rjan90
         - rvagg
@@ -336,6 +336,8 @@ repositories:
         - hugomrdias
         - LexLuthr
         - silent-cipher
+      triage:
+        - davidgasquez
     has_discussions: true
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -378,6 +380,38 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  filpay-cli:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - TippyFlitsUK
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
+  foc-devnet-info:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - redpanda-f
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   foc-devnet:
     advanced_security: false
     allow_update_branch: false
@@ -392,6 +426,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - filoz-fs
     visibility: public
     web_commit_signoff_required: false
   foc-monorepo:
@@ -509,6 +546,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - pyropy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
