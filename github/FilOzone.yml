@@ -28,7 +28,6 @@ members:
     - pyropy
     - redpanda-f
     - SgtPooki
-    - snadrus
     - snissn
     - timfong888
     - TippyFlitsUK
@@ -401,21 +400,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   foc-devnet-info:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - redpanda-f
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   foc-devnet:
     advanced_security: false
     allow_update_branch: false
