@@ -103,6 +103,8 @@ repositories:
         - SgtPooki
       maintain:
         - silent-cipher
+      push:
+        - geomatrick
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -307,6 +309,7 @@ repositories:
       admin:
         - jennijuju
       maintain:
+        - juliangruber
         - wjmelements
       push:
         - hugomrdias
