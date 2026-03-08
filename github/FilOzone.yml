@@ -22,7 +22,6 @@ members:
     - kaola526
     - Kubuxu
     - longfeiWan9
-    - MaBarnabas
     - macro-ss
     - nijoe1
     - pyropy
@@ -33,6 +32,19 @@ members:
     - TippyFlitsUK
     - wjmelements
 repositories:
+  .github:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   client-contract:
     advanced_security: false
     allow_update_branch: false
@@ -103,6 +115,8 @@ repositories:
         - SgtPooki
       maintain:
         - silent-cipher
+      pull:
+        - Chaitu-Tatipamula
       push:
         - geomatrick
     has_discussions: false
@@ -131,7 +145,7 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
+    visibility: public
     web_commit_signoff_required: false
   demo-repository:
     advanced_security: false
@@ -257,6 +271,22 @@ repositories:
         - filoz-fs
     visibility: public
     web_commit_signoff_required: false
+  filecoin-nova:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - TippyFlitsUK
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   filecoin-pay-auction-bot:
     advanced_security: false
     allow_update_branch: false
@@ -276,6 +306,22 @@ repositories:
         - filoz-fs
       maintain:
         - SpaceMeridian
+    visibility: public
+    web_commit_signoff_required: false
+  filecoin-pay-console-stories:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - timfong888
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
   filecoin-pay-explorer:
@@ -386,6 +432,22 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  filoz-home-desite:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - TippyFlitsUK
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    web_commit_signoff_required: false
   filpay-cli:
     advanced_security: false
     allow_update_branch: false
@@ -411,6 +473,8 @@ repositories:
     collaborators:
       admin:
         - redpanda-f
+      push:
+        - LexLuthr
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -844,6 +908,8 @@ repositories:
         - hugomrdias
       push:
         - silent-cipher
+      triage:
+        - lordshashank
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1090,7 +1156,5 @@ teams:
     create_default_maintainer: false
     members:
       member:
-        - code-pangolin
         - kaola526
-        - MaBarnabas
         - macro-ss
