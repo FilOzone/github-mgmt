@@ -13,15 +13,19 @@ members:
   member:
     - aarshkshah1992
     - bajtos
+    - beck-8
     - code-pangolin
+    - dennis-tra
     - FilOzzy
     - geomatrick
     - hugomrdias
+    - iand
     - irenegia
     - juliangruber
     - kaola526
     - Kubuxu
     - longfeiWan9
+    - lucaniz
     - macro-ss
     - nijoe1
     - pyropy
@@ -468,6 +472,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -478,6 +485,19 @@ repositories:
     teams:
       maintain:
         - filoz-fs
+    visibility: public
+    web_commit_signoff_required: false
+  foc-gh:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
   foc-monorepo:
@@ -492,6 +512,19 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
+    web_commit_signoff_required: false
+  foc-observer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
+    visibility: public
     web_commit_signoff_required: false
   foc-treasury:
     advanced_security: false
@@ -614,6 +647,8 @@ repositories:
       push:
         - juliangruber
       triage:
+        - beck-8
+        - FilOzzy
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -626,6 +661,7 @@ repositories:
       admin:
         - filoz-fs
       triage:
+        - ProbeLab
         - StorSwift
     visibility: private
     web_commit_signoff_required: false
@@ -1091,6 +1127,7 @@ teams:
       member:
         - irenegia
         - Kubuxu
+        - lucaniz
         - SgtPooki
         - timfong888
         - TippyFlitsUK
@@ -1147,6 +1184,14 @@ teams:
         - jennijuju
         - rjan90
         - rvagg
+  ProbeLab:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - BigLep
+      member:
+        - dennis-tra
+        - iand
   SpaceMeridian:
     create_default_maintainer: false
     members:
