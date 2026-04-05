@@ -130,7 +130,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       maintain:
         - filoz-fs
@@ -656,7 +656,7 @@ repositories:
     secret_scanning_push_protection: false
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - filoz-fs
