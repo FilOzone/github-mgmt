@@ -245,8 +245,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - TippyFlitsUK
       push:
         - CharlyMartin
         - gmoranxyz
@@ -344,7 +342,6 @@ repositories:
         - jennijuju
       maintain:
         - juliangruber
-        - wjmelements
       push:
         - hugomrdias
         - lordshashank
@@ -1080,25 +1077,6 @@ teams:
         - longfeiWan9
         - nijoe1
         - snissn
-  filecoin-pay-maintainers:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - jennijuju
-        - rjan90
-        - rvagg
-        - ZenGround0
-      member:
-        - Kubuxu
-        - wjmelements
-  filecoin-pin-dev:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - jennijuju
-        - rvagg
-      member:
-        - hugomrdias
   filoz-fs:
     create_default_maintainer: false
     members:
