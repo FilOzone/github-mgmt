@@ -284,6 +284,8 @@ repositories:
     collaborators:
       admin:
         - filoz-fs
+      maintain:
+        - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -321,6 +323,7 @@ repositories:
         - silent-cipher
       push:
         - CharlyMartin
+        - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -370,6 +373,7 @@ repositories:
         - ZenGround0
       push:
         - hugomrdias
+        - juliangruber
         - LexLuthr
         - silent-cipher
       triage:
@@ -547,6 +551,7 @@ repositories:
       push:
         - biga816
         - eshon
+        - juliangruber
         - longfeiWan9
         - nijoe1
         - vijayeth
@@ -936,6 +941,7 @@ repositories:
         - hugomrdias
       push:
         - FilOzzy
+        - juliangruber
         - silent-cipher
       triage:
         - lordshashank
@@ -984,6 +990,7 @@ repositories:
       push:
         - Angelo-gh3990
         - biga816
+        - juliangruber
         - longfeiWan9
         - nijoe1
         - trruckerfling
