@@ -5,19 +5,14 @@ members:
     - BigLep
     - galargh
     - jennijuju
-    - magik6k
     - momack2
     - rjan90
     - rvagg
     - ZenGround0
   member:
-    - aarshkshah1992
-    - bajtos
     - beck-8
-    - code-pangolin
     - dennis-tra
     - FilOzzy
-    - geomatrick
     - hugomrdias
     - iand
     - irenegia
@@ -28,7 +23,6 @@ members:
     - lucaniz
     - macro-ss
     - nijoe1
-    - pyropy
     - SgtPooki
     - snissn
     - timfong888
@@ -122,7 +116,6 @@ repositories:
         - Chaitu-Tatipamula
       push:
         - FilOzzy
-        - geomatrick
         - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -268,13 +261,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - mirhamasala
-        - TippyFlitsUK
       push:
-        - barbaraperic
         - CharlyMartin
-        - geomatrick
         - gmoranxyz
         - silent-cipher
     has_discussions: false
@@ -311,7 +299,9 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - pyropy
+        - filoz-fs
+      maintain:
+        - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -322,8 +312,6 @@ repositories:
     teams:
       admin:
         - filoz-fs
-      maintain:
-        - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
   filecoin-pay-console-stories:
@@ -351,8 +339,8 @@ repositories:
       admin:
         - silent-cipher
       push:
-        - barbaraperic
         - CharlyMartin
+        - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -363,7 +351,6 @@ repositories:
     teams:
       push:
         - filoz-fs
-        - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
   filecoin-pay:
@@ -375,11 +362,9 @@ repositories:
         - jennijuju
       maintain:
         - juliangruber
-        - wjmelements
       push:
         - hugomrdias
         - lordshashank
-        - pyropy
         - silent-cipher
     has_discussions: true
     merge_commit_message: PR_TITLE
@@ -405,6 +390,7 @@ repositories:
         - ZenGround0
       push:
         - hugomrdias
+        - juliangruber
         - LexLuthr
         - silent-cipher
       triage:
@@ -419,7 +405,6 @@ repositories:
     teams:
       push:
         - filoz-fs
-        - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
   FilecoinPin-for-ERC8004:
@@ -477,8 +462,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -527,8 +512,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -553,8 +538,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: BLANK
     squash_merge_commit_title: PR_TITLE
     visibility: public
@@ -585,8 +570,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -615,6 +600,7 @@ repositories:
       push:
         - biga816
         - eshon
+        - juliangruber
         - longfeiWan9
         - nijoe1
         - vijayeth
@@ -632,7 +618,6 @@ repositories:
         - fs-pm
       push:
         - filoz-fs
-        - SpaceMeridian
     visibility: private
     web_commit_signoff_required: false
   gas-model:
@@ -672,11 +657,9 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aarshkshah1992
+        - filoz-fs
       push:
         - silent-cipher
-        - virajbhartiya
-        - Winter-Soren
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -691,8 +674,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      pull:
-        - pyropy
       push:
         - juliangruber
       triage:
@@ -724,8 +705,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -833,7 +814,6 @@ repositories:
         - frrist
         - LexLuthr
         - silent-cipher
-        - virajbhartiya
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -865,9 +845,7 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - aarshkshah1992
         - Kubuxu
-        - Stebalien
       push:
         - frrist
         - hugomrdias
@@ -961,8 +939,8 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
@@ -1009,10 +987,10 @@ repositories:
         - rvagg
         - ZenGround0
       maintain:
-        - aarshkshah1992
         - hugomrdias
       push:
         - FilOzzy
+        - juliangruber
         - silent-cipher
       triage:
         - lordshashank
@@ -1027,7 +1005,6 @@ repositories:
       push:
         - FIL-B
         - filoz-fs
-        - SpaceMeridian
     visibility: public
     web_commit_signoff_required: false
   synapse-website:
@@ -1042,9 +1019,7 @@ repositories:
         - timfong888
         - TippyFlitsUK
       push:
-        - barbaraperic
         - CharlyMartin
-        - mirhamasala
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1064,6 +1039,7 @@ repositories:
       push:
         - Angelo-gh3990
         - biga816
+        - juliangruber
         - longfeiWan9
         - nijoe1
         - trruckerfling
@@ -1078,7 +1054,6 @@ repositories:
       push:
         - filoz-fs
         - fs-pm
-        - SpaceMeridian
     visibility: private
     web_commit_signoff_required: false
   tim-import:
@@ -1159,6 +1134,7 @@ teams:
         - nijoe1
         - snissn
   filecoin-pay-maintainers:
+    # Retained for @FilOzone/filecoin-pay-maintainers CODEOWNERS references in FilOzone/filecoin-pay.
     create_default_maintainer: false
     members:
       maintainer:
@@ -1167,18 +1143,8 @@ teams:
         - rvagg
         - ZenGround0
       member:
-        - aarshkshah1992
         - Kubuxu
         - wjmelements
-  filecoin-pin-dev:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - jennijuju
-        - rvagg
-      member:
-        - aarshkshah1992
-        - hugomrdias
   filoz-fs:
     create_default_maintainer: false
     members:
@@ -1204,7 +1170,6 @@ teams:
         - jennijuju
         - momack2
       member:
-        - geomatrick
         - timfong888
   github-mgmt approvers:
     # Notes:
@@ -1257,15 +1222,6 @@ teams:
       member:
         - dennis-tra
         - iand
-  SpaceMeridian:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - bajtos
-        - geomatrick
-      member:
-        - juliangruber
-        - pyropy
   StorSwift:
     create_default_maintainer: false
     members:
