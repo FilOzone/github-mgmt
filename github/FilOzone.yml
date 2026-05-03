@@ -194,6 +194,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - filoz-fs
     visibility: private
     web_commit_signoff_required: false
   f3-participation-id-search:
@@ -298,9 +301,9 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - filoz-fs
       maintain:
+        - bajtos
+        - geomatrick
         - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -339,8 +342,11 @@ repositories:
       admin:
         - silent-cipher
       push:
+        - bajtos
         - CharlyMartin
+        - geomatrick
         - juliangruber
+        - pyropy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -389,9 +395,12 @@ repositories:
         - rvagg
         - ZenGround0
       push:
+        - bajtos
+        - geomatrick
         - hugomrdias
         - juliangruber
         - LexLuthr
+        - pyropy
         - silent-cipher
       triage:
         - davidgasquez
@@ -597,12 +606,16 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - geomatrick
       push:
+        - bajtos
         - biga816
         - eshon
         - juliangruber
         - longfeiWan9
         - nijoe1
+        - pyropy
         - vijayeth
       triage:
         - nandit123
@@ -656,8 +669,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - filoz-fs
       push:
         - silent-cipher
     has_discussions: false
@@ -989,8 +1000,11 @@ repositories:
       maintain:
         - hugomrdias
       push:
+        - bajtos
         - FilOzzy
+        - geomatrick
         - juliangruber
+        - pyropy
         - silent-cipher
       triage:
         - lordshashank
@@ -1038,10 +1052,13 @@ repositories:
         - timfong888
       push:
         - Angelo-gh3990
+        - bajtos
         - biga816
+        - geomatrick
         - juliangruber
         - longfeiWan9
         - nijoe1
+        - pyropy
         - trruckerfling
     has_discussions: true
     merge_commit_message: PR_TITLE
