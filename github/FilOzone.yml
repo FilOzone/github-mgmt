@@ -409,7 +409,7 @@ repositories:
     merge_commit_title: PR_TITLE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: PR_TITLE
     teams:
       push:
