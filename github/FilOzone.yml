@@ -25,8 +25,8 @@ members:
     - macro-ss
     - nijoe1
     - SgtPooki
-    - snadrus
     - silent-cipher
+    - snadrus
     - snissn
     - TippyFlitsUK
     - wjmelements
@@ -1155,7 +1155,6 @@ teams:
       maintainer:
         - jennijuju
         - momack2
-      member:
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
