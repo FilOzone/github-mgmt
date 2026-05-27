@@ -19,13 +19,15 @@ members:
     - juliangruber
     - kaola526
     - Kubuxu
+    - LexLuthr
     - longfeiWan9
     - lucaniz
     - macro-ss
     - nijoe1
     - SgtPooki
+    - snadrus
+    - silent-cipher
     - snissn
-    - timfong888
     - TippyFlitsUK
     - wjmelements
 repositories:
@@ -220,6 +222,8 @@ repositories:
     teams:
       maintain:
         - filoz-fs
+      push:
+        - foc-wg-eng
     visibility: private
     web_commit_signoff_required: false
   f3-participation-id-search:
@@ -288,8 +292,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - CharlyMartin
-        - gmoranxyz
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -325,8 +327,6 @@ repositories:
     archived: false
     collaborators:
       maintain:
-        - bajtos
-        - geomatrick
         - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -347,7 +347,6 @@ repositories:
     collaborators:
       admin:
         - juliangruber
-        - timfong888
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -414,12 +413,9 @@ repositories:
         - rvagg
         - ZenGround0
       push:
-        - bajtos
-        - geomatrick
         - hugomrdias
         - juliangruber
         - LexLuthr
-        - pyropy
         - silent-cipher
       triage:
         - davidgasquez
@@ -641,16 +637,12 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - geomatrick
       push:
-        - bajtos
         - biga816
         - eshon
         - juliangruber
         - longfeiWan9
         - nijoe1
-        - pyropy
         - vijayeth
       triage:
         - nandit123
@@ -736,6 +728,8 @@ repositories:
     teams:
       admin:
         - filoz-fs
+      pull:
+        - foc-wg-eng
       triage:
         - ProbeLab
         - StorSwift
@@ -916,7 +910,7 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - geomatrick
+        - jennijuju
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -944,21 +938,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   sdk-user-stories:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - timfong888
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   security-triage:
     advanced_security: false
     allow_update_branch: false
@@ -992,21 +972,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   sp-telemetry-stories:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - timfong888
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
-    web_commit_signoff_required: false
+    archived: true
   Space-Panthers:
     advanced_security: false
     allow_update_branch: false
@@ -1043,19 +1009,13 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - jennijuju
-        - momack2
         - rjan90
         - rvagg
-        - ZenGround0
       maintain:
         - hugomrdias
       push:
-        - bajtos
         - FilOzzy
-        - geomatrick
         - juliangruber
-        - pyropy
         - silent-cipher
       triage:
         - lordshashank
@@ -1081,10 +1041,7 @@ repositories:
         - jennijuju
         - rjan90
       maintain:
-        - timfong888
         - TippyFlitsUK
-      push:
-        - CharlyMartin
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1095,72 +1052,11 @@ repositories:
     visibility: private
     web_commit_signoff_required: false
   tim-docs:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - timfong888
-      push:
-        - Angelo-gh3990
-        - bajtos
-        - biga816
-        - geomatrick
-        - juliangruber
-        - longfeiWan9
-        - nijoe1
-        - pyropy
-        - trruckerfling
-    has_discussions: true
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      push:
-        - filoz-fs
-        - fs-pm
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   tim-import:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - timfong888
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   tim-workstream:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - BigLep
-        - timfong888
-      push:
-        - nijoe1
-      triage:
-        - nandit123
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   tpm-utils:
     advanced_security: false
     allow_update_branch: false
@@ -1231,7 +1127,26 @@ teams:
         - Kubuxu
         - lucaniz
         - SgtPooki
-        - timfong888
+        - TippyFlitsUK
+        - wjmelements
+  foc-wg-eng:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - BigLep
+        - rjan90
+        - rvagg
+        - ZenGround0
+      member:
+        - beck-8
+        - FilOzzy
+        - hugomrdias
+        - juliangruber
+        - Kubuxu
+        - LexLuthr
+        - SgtPooki
+        - silent-cipher
+        - snadrus
         - TippyFlitsUK
         - wjmelements
   fs-pm:
@@ -1241,7 +1156,6 @@ teams:
         - jennijuju
         - momack2
       member:
-        - timfong888
   github-mgmt approvers:
     # Notes:
     # 1. These members have triage access to the github-mgmt repository.
