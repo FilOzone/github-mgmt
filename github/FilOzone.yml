@@ -28,7 +28,6 @@ members:
     - silent-cipher
     - snadrus
     - snissn
-    - timfong888
     - TippyFlitsUK
     - wjmelements
 repositories:
@@ -213,6 +212,8 @@ repositories:
       admin:
         - hugomrdias
         - Kubuxu
+      push:
+        - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
