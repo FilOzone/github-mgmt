@@ -134,13 +134,13 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - SgtPooki
       maintain:
         - silent-cipher
       pull:
         - Chaitu-Tatipamula
       push:
-        - FilOzzy
         - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -386,6 +386,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - jennijuju
       maintain:
         - juliangruber
@@ -411,6 +412,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - jennijuju
         - rjan90
         - rvagg
@@ -888,6 +890,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - FilOzzy
       maintain:
         - Kubuxu
       push:
@@ -965,6 +969,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - wjmelements
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1013,12 +1018,12 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - rjan90
         - rvagg
       maintain:
         - hugomrdias
       push:
-        - FilOzzy
         - juliangruber
         - silent-cipher
       triage:
