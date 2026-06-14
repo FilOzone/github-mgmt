@@ -227,7 +227,7 @@ repositories:
         - filoz-fs
       push:
         - foc-wg-eng
-    visibility: private
+    visibility: public
     web_commit_signoff_required: false
   f3-participation-id-search:
     advanced_security: false
@@ -719,10 +719,10 @@ repositories:
     collaborators:
       push:
         - juliangruber
+        - silent-cipher
       triage:
         - beck-8
         - FilOzzy
-        - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1070,6 +1070,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      admin:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
