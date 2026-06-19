@@ -1211,6 +1211,73 @@ teams:
         - jennijuju
         - rjan90
         - rvagg
+  infra-admin:
+    # Maps to the `infra:admin` OIDC group via Dex (FilOzone/infra).
+    # Platform-operator team: broad Kubernetes admin, full Argo CD admin, full Grafana admin.
+    # See FilOzone/infra docs/SSO_ACCESS.md for the team-to-group model.
+    create_default_maintainer: false
+    members:
+      member:
+        - BigLep
+        - jennijuju
+        - Kubuxu
+        - momack2
+        - rjan90
+        - rvagg
+        - SgtPooki
+  infra-argocd-admin:
+    # Maps to the `argocd:admin` OIDC group via Dex (FilOzone/infra). Full Argo CD administration.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
+  infra-argocd-viewer:
+    # Maps to the `argocd:viewer` OIDC group via Dex (FilOzone/infra). Read-only Argo CD access.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
+  infra-dealbot-admin:
+    # Maps to the `k8s:dealbot:admin` OIDC group via Dex (FilOzone/infra).
+    # Namespace-scoped operational admin for the `dealbot` namespace.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
+  infra-dealbot-viewer:
+    # Maps to the `k8s:dealbot:viewer` OIDC group via Dex (FilOzone/infra).
+    # Namespace-scoped read-only access for the `dealbot` namespace.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
+  infra-grafana-admin:
+    # Maps to the `grafana:admin` OIDC group via Dex (FilOzone/infra). Elevated Grafana access.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
+  infra-grafana-viewer:
+    # Maps to the `grafana:viewer` OIDC group via Dex (FilOzone/infra). Read-only Grafana access.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
+  infra-viewer:
+    # Maps to the `infra:viewer` OIDC group via Dex (FilOzone/infra). Broad read-only infra access.
+    # NOTE: cluster-wide Kubernetes read bindings for this group are still deferred in FilOzone/infra;
+    # only app-scoped viewers (e.g. infra-dealbot-viewer) are wired today.
+    create_default_maintainer: false
+    members:
+      member:
+        - Kubuxu
+        - SgtPooki
   ProbeLab:
     create_default_maintainer: false
     members:
