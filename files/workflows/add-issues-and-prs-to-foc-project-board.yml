@@ -31,6 +31,9 @@ on:
 jobs:
   add-to-project:
     name: Add all issues and PRs to project
+    # This job authenticates with the dedicated FILOZZY_CI_ADD_TO_PROJECT PAT and does
+    # not use the default GITHUB_TOKEN, so drop all of its permissions to limit blast radius.
+    permissions: {}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@5afcf98fcd03f1c2f92c3c83f58ae24323cc57fd # v2.0.0
