@@ -364,8 +364,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - juliangruber
       maintain:
         - silent-cipher
     has_discussions: false
@@ -378,6 +376,7 @@ repositories:
     teams:
       push:
         - filoz-fs
+        - foc-wg-eng
     visibility: public
     web_commit_signoff_required: false
   filecoin-pay:
@@ -644,6 +643,19 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     web_commit_signoff_required: false
+  foc-wg-agents:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+    web_commit_signoff_required: false
   forge-script-gas-report:
     advanced_security: false
     allow_update_branch: false
@@ -854,7 +866,6 @@ repositories:
         - silent-cipher
       push:
         - frrist
-        - juliangruber
         - LexLuthr
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -866,6 +877,8 @@ repositories:
     teams:
       maintain:
         - StorSwift
+      push:
+        - foc-wg-eng
     visibility: public
     web_commit_signoff_required: false
   pdp-piece-proof:
