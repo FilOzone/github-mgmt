@@ -647,6 +647,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      push:
+        - shann7
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -746,6 +749,22 @@ repositories:
         - ProbeLab
         - StorSwift
     visibility: private
+    web_commit_signoff_required: false
+  ipfs2foc:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - SgtPooki
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
     web_commit_signoff_required: false
   localnet:
     advanced_security: false
@@ -1051,24 +1070,7 @@ repositories:
     visibility: public
     web_commit_signoff_required: false
   synapse-website:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - jennijuju
-        - rjan90
-      maintain:
-        - TippyFlitsUK
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: private
-    web_commit_signoff_required: false
+    archived: true
   team-skills:
     advanced_security: false
     allow_update_branch: false
