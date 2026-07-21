@@ -728,6 +728,7 @@ repositories:
     archived: false
     collaborators:
       push:
+        - hugomrdias
         - juliangruber
         - silent-cipher
       triage:
