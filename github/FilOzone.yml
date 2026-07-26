@@ -17,6 +17,7 @@ members:
     - hugomrdias
     - iand
     - irenegia
+    - JAG-UK
     - juliangruber
     - kaola526
     - Kubuxu
@@ -24,6 +25,7 @@ members:
     - longfeiWan9
     - lucaniz
     - macro-ss
+    - martapiekarska
     - nijoe1
     - SgtPooki
     - silent-cipher
@@ -647,9 +649,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - shann7
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1182,7 +1181,7 @@ teams:
         - BravoNatalie
         - FilOzzy
         - hugomrdias
-        - juliangruber
+        - JAG-UK
         - Kubuxu
         - LexLuthr
         - SgtPooki
