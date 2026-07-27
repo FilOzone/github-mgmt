@@ -881,7 +881,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
+      admin:
         - silent-cipher
       push:
         - frrist
@@ -894,9 +894,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      maintain:
-        - StorSwift
       push:
+        - filoz-fs
         - foc-wg-eng
     visibility: public
     web_commit_signoff_required: false
