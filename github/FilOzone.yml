@@ -881,7 +881,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      maintain:
         - silent-cipher
       push:
         - frrist
