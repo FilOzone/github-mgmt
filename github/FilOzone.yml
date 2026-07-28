@@ -521,6 +521,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      maintain:
+        - JAG-UK
       triage:
         - FilOzzy
     has_discussions: false
@@ -1050,6 +1052,7 @@ repositories:
         - rvagg
       maintain:
         - hugomrdias
+        - JAG-UK
       push:
         - juliangruber
         - silent-cipher
