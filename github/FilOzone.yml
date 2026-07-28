@@ -533,6 +533,7 @@ repositories:
     teams:
       maintain:
         - filoz-fs
+        - JAG-UK
     visibility: public
     web_commit_signoff_required: false
   foc-gh:
@@ -1050,6 +1051,7 @@ repositories:
         - rvagg
       maintain:
         - hugomrdias
+        - JAG-UK
       push:
         - juliangruber
         - silent-cipher
