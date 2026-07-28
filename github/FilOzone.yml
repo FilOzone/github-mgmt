@@ -523,6 +523,8 @@ repositories:
     collaborators:
       triage:
         - FilOzzy
+      maintain:
+        - JAG-UK
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -533,7 +535,6 @@ repositories:
     teams:
       maintain:
         - filoz-fs
-        - JAG-UK
     visibility: public
     web_commit_signoff_required: false
   foc-gh:
