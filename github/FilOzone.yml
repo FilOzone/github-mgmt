@@ -757,7 +757,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      admin:
         - SgtPooki
     has_discussions: false
     merge_commit_message: PR_TITLE
