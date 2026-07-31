@@ -1,0 +1,6 @@
+# Codeowners per the FOC Engineering Workstreams proposal.
+# https://app.notion.com/p/filecoindev/FOC-Engineering-Workstreams-342dc41950c1818f99d2e857a7f3cb2e
+#
+# The github-mgmt stewards team already holds push access to this repository.
+# Listing it here also gets stewards auto-requested for review on every PR.
+* @FilOzone/github-mgmt-stewards
