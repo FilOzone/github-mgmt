@@ -139,6 +139,7 @@ repositories:
         - FilOzzy
         - SgtPooki
       maintain:
+        - beck-8
         - silent-cipher
       pull:
         - Chaitu-Tatipamula
@@ -522,6 +523,7 @@ repositories:
     archived: false
     collaborators:
       maintain:
+        - beck-8
         - JAG-UK
       triage:
         - FilOzzy
@@ -1000,6 +1002,8 @@ repositories:
       admin:
         - FilOzzy
         - wjmelements
+      maintain:
+        - Kubuxu
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1141,18 +1145,6 @@ teams:
         - longfeiWan9
         - nijoe1
         - snissn
-  filecoin-pay-maintainers:
-    # Retained for @FilOzone/filecoin-pay-maintainers CODEOWNERS references in FilOzone/filecoin-pay.
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - jennijuju
-        - rjan90
-        - rvagg
-        - ZenGround0
-      member:
-        - Kubuxu
-        - wjmelements
   filoz-fs:
     create_default_maintainer: false
     members:
