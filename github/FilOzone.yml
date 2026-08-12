@@ -367,6 +367,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - BravoNatalie
       maintain:
         - silent-cipher
     has_discussions: false
