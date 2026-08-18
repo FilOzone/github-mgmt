@@ -1071,6 +1071,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
+      admin:
+        - SgtPooki
       push:
         - snissn
     has_discussions: false
