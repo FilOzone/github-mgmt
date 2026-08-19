@@ -1074,6 +1074,7 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - FilOzzy
         - SgtPooki
       push:
         - snissn
