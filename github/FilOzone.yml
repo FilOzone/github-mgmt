@@ -404,6 +404,7 @@ repositories:
       maintain:
         - silent-cipher
       push:
+        - nijoe1
         - snissn
     has_discussions: false
     merge_commit_message: PR_TITLE
