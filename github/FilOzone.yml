@@ -1137,9 +1137,9 @@ repositories:
         - rjan90
         - rvagg
       maintain:
+        - BravoNatalie
         - hugomrdias
         - JAG-UK
-        - BravoNatalie
       push:
         - silent-cipher
     has_discussions: false
