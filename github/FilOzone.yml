@@ -1139,6 +1139,7 @@ repositories:
       maintain:
         - hugomrdias
         - JAG-UK
+        - BravoNatalie
       push:
         - silent-cipher
     has_discussions: false
