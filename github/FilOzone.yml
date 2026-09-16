@@ -1137,6 +1137,7 @@ repositories:
         - rjan90
         - rvagg
       maintain:
+        - BravoNatalie
         - hugomrdias
         - JAG-UK
       push:
