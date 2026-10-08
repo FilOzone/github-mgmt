@@ -761,11 +761,11 @@ repositories:
       maintain:
         - martapiekarska
       push:
+        - beck-8
         - hugomrdias
         - lukasz-wal
         - silent-cipher
       triage:
-        - beck-8
         - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
