@@ -791,8 +791,8 @@ repositories:
         - beck-8
         - hugomrdias
         - lukasz-wal
-        - silent-cipher
         - OzzyHelper
+        - silent-cipher
       triage:
         - FilOzzy
     has_discussions: false
