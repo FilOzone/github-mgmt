@@ -792,6 +792,7 @@ repositories:
         - hugomrdias
         - lukasz-wal
         - silent-cipher
+        - OzzyHelper
       triage:
         - FilOzzy
     has_discussions: false
