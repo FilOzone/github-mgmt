@@ -791,6 +791,7 @@ repositories:
         - beck-8
         - hugomrdias
         - lukasz-wal
+        - OzzyHelper
         - silent-cipher
       triage:
         - FilOzzy
