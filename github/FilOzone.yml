@@ -135,7 +135,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - FilOzzy
         - SgtPooki
       maintain:
         - beck-8
@@ -143,6 +142,7 @@ repositories:
       pull:
         - Chaitu-Tatipamula
       push:
+        - FilOzzy
         - juliangruber
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -412,7 +412,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - FilOzzy
         - jennijuju
       maintain:
         - juliangruber
@@ -420,6 +419,8 @@ repositories:
         - hugomrdias
         - lordshashank
         - silent-cipher
+      triage:
+        - FilOzzy
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -438,7 +439,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - FilOzzy
         - jennijuju
         - rjan90
         - rvagg
@@ -453,6 +453,7 @@ repositories:
         - silent-cipher
       triage:
         - davidgasquez
+        - FilOzzy
     has_discussions: true
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
@@ -997,8 +998,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - FilOzzy
       maintain:
         - Kubuxu
       push:
@@ -1007,6 +1006,8 @@ repositories:
         - juliangruber
         - LexLuthr
         - nijoe1
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1095,10 +1096,11 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - FilOzzy
         - wjmelements
       maintain:
         - Kubuxu
+      triage:
+        - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1165,7 +1167,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - FilOzzy
         - rjan90
         - rvagg
       maintain:
@@ -1173,6 +1174,7 @@ repositories:
         - hugomrdias
         - JAG-UK
       push:
+        - FilOzzy
         - silent-cipher
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -1218,7 +1220,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
+      triage:
         - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
