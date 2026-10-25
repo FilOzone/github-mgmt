@@ -392,6 +392,7 @@ repositories:
         - silent-cipher
       push:
         - nijoe1
+        - OzzyHelper
         - snissn
     has_discussions: false
     merge_commit_message: PR_TITLE
