@@ -349,7 +349,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      push:
+      admin:
         - BravoNatalie
     has_discussions: false
     merge_commit_message: PR_TITLE
