@@ -1438,7 +1438,6 @@ teams:
         # 2. She is part of the team rather than just relying on "org.admin" abilities so she sees the @FilOzone/github-mgmt-stewards team mentions/notifications.
         - jennijuju
         - rjan90
-        - rvagg
   infra-admin:
     # Maps to the `infra:admin` OIDC group via Dex (FilOzone/infra).
     # Platform-operator team: broad Kubernetes admin, full Argo CD admin, full Grafana admin.
