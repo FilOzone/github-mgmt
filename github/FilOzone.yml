@@ -628,6 +628,8 @@ repositories:
     teams:
       maintain:
         - filoz-fs
+      write:
+        - ozzyhelper
     visibility: public
     web_commit_signoff_required: false
   foc-gh:
