@@ -628,7 +628,7 @@ repositories:
     teams:
       maintain:
         - filoz-fs
-      write:
+      push:
         - ozzyhelper
     visibility: public
     web_commit_signoff_required: false
