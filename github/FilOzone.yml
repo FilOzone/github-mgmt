@@ -1300,6 +1300,7 @@ repositories:
       push:
         - FIL-B
         - filoz-fs
+        - ozzyhelper
     visibility: public
     web_commit_signoff_required: false
   synapse-website:
