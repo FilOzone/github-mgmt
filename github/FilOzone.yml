@@ -705,8 +705,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - beck-8
       push:
         - nijoe1
         - TippyFlitsUK
