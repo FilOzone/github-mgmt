@@ -17,6 +17,7 @@ A robust template for managing GitHub configurations as code via Pull Requests. 
 - Learn more about [what GitHub Management is and how it works](docs/ABOUT.md).
 - Get started with [setting up GitHub Management](docs/SETUP.md).
 - Uncover [how to effectively utilize GitHub Management](docs/HOWTOS.md).
+- Read the [FilOzone runbook](docs/RUNBOOK.md).
 
 ## Active Users
 
