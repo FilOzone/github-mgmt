@@ -430,9 +430,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - wjmelements
-      maintain:
         - Kubuxu
+        - wjmelements
       push:
         - BravoNatalie
         - CodeWarriorr
@@ -690,7 +689,7 @@ repositories:
     collaborators:
       admin:
         - Kubuxu
-      triage:
+      push:
         - FilOzzy
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -869,6 +868,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      push:
+        - ozzyhelper
     visibility: public
     web_commit_signoff_required: true
   infra:
@@ -1092,7 +1094,7 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      maintain:
+      admin:
         - Kubuxu
       push:
         - frrist
@@ -1190,9 +1192,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - wjmelements
-      maintain:
         - Kubuxu
+        - wjmelements
       triage:
         - FilOzzy
     has_discussions: false
@@ -1385,13 +1386,13 @@ teams:
       maintainer:
         - BigLep
         - jennijuju
+        - Kubuxu
         - momack2
         - rjan90
         - rvagg
         - ZenGround0
       member:
         - irenegia
-        - Kubuxu
         - lucaniz
         - SgtPooki
         - TippyFlitsUK
@@ -1401,6 +1402,7 @@ teams:
     members:
       maintainer:
         - BigLep
+        - Kubuxu
         - rjan90
         - rvagg
         - ZenGround0
@@ -1410,7 +1412,6 @@ teams:
         - FilOzzy
         - hugomrdias
         - JAG-UK
-        - Kubuxu
         - LexLuthr
         - martapiekarska
         - SgtPooki
@@ -1478,55 +1479,61 @@ teams:
       maintainer:
         - BigLep
         - jennijuju
+        - Kubuxu
         - momack2
         - rjan90
         - rvagg
       member:
-        - Kubuxu
         - SgtPooki
   infra-argocd-admin:
     # Maps to the `argocd:admin` OIDC group via Dex (FilOzone/infra). Full Argo CD administration.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   infra-argocd-viewer:
     # Maps to the `argocd:viewer` OIDC group via Dex (FilOzone/infra). Read-only Argo CD access.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   infra-dealbot-admin:
     # Maps to the `k8s:dealbot:admin` OIDC group via Dex (FilOzone/infra).
     # Namespace-scoped operational admin for the `dealbot` namespace.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   infra-dealbot-viewer:
     # Maps to the `k8s:dealbot:viewer` OIDC group via Dex (FilOzone/infra).
     # Namespace-scoped read-only access for the `dealbot` namespace.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   infra-grafana-admin:
     # Maps to the `grafana:admin` OIDC group via Dex (FilOzone/infra). Elevated Grafana access.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   infra-grafana-viewer:
     # Maps to the `grafana:viewer` OIDC group via Dex (FilOzone/infra). Read-only Grafana access.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   infra-viewer:
     # Maps to the `infra:viewer` OIDC group via Dex (FilOzone/infra). Broad read-only infra access.
@@ -1534,8 +1541,9 @@ teams:
     # only app-scoped viewers (e.g. infra-dealbot-viewer) are wired today.
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - Kubuxu
+      member:
         - SgtPooki
   ozzyhelper:
     create_default_maintainer: false
